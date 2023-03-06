@@ -1,0 +1,45 @@
+div{
+ width:100px;
+height:100px;
+margin-top: 100px;
+margin-left: 200px;
+background-color: black;
+transition: 1s ease-in-out; 
+animation: animate 1s ease-in 1s infinite ;
+}
+div:hover{
+
+
+    animation-play-state: paused;
+}
+p:hover{
+
+    display:none;
+}
+span{
+
+color: blue;
+
+}
+
+@keyframes animate{
+
+0%{
+width:50px;
+background-color: bisque;
+
+}
+50%{
+width:150px;
+background-color: black;
+transform: rotate(45deg);
+}
+100%{
+width:80px;
+background-color: brown;
+
+
+}
+
+
+}
